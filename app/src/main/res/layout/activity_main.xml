@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omflogo2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="382dp"
+        android:layout_height="58dp"
+        android:background="@color/czerwony"
+        android:onClick="clickexit"
+        android:text="EXIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butmove"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="EXIT" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="382dp"
+        android:layout_height="146dp"
+        android:background="@color/czerwony"
+        android:onClick="Listarobotow1"
+        android:text="LIST OF ROBOTS >>"
+        android:textColor="@color/czarny"
+        android:textSize="34sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butmove"
+        app:layout_constraintVertical_bias="0.946"
+        tools:background="@color/colorAccent"
+        tools:ignore="OnClick"
+        tools:text="LIST OF ROBOTS >>" />
+
+    <Button
+        android:id="@+id/butmove"
+        android:layout_width="382dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/czerwony"
+        android:text="MUSIC ON/OFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
