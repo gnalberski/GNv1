@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
-
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    Button b;
-    static MediaPlayer mp;
 
 
     @Override
@@ -32,19 +30,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.menumusic1);
-        b = (Button) findViewById(R.id.butmove);
-        b.setOnClickListener(new View.OnClickListener() {
+
+    public void onStart() {
+
+        Button one = (Button) this.findViewById(R.id.butmove);
+        super.onStart();
+        final MediaPlayer mp1 = MediaPlayer.create(this, R.raw.menumusic1);
+        one.setOnClickListener(new OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                mp.start();
+                if (mp1.isPlaying()) {
+                    mp1.pause();
+                } else {
+                    mp1.start();
+                }
             }
         });
+   }
 
-    }
 
 
     public void Listarobotow(Bundle savedInstanceState) {
