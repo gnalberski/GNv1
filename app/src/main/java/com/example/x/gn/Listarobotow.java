@@ -13,14 +13,12 @@ import android.widget.Button;
 
 public class Listarobotow extends AppCompatActivity {
 
-//    public void listarobotow1(View view) {
-//
-//        setContentView(R.layout.activity_listarobotow);
-//    }
 
-    protected void onCreate2(Bundle savedInstanceState) {
+    public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listarobotow);
     }
+
+
 
 }
