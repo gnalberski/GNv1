@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
+import android.app.Activity;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     public void clickexit(View view) {
         finish();
     }
-
-
 
 
     @Override
@@ -47,28 +47,26 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-   }
+    }
 
 
 
-    public void Listarobotow(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Button but1 = (Button) findViewById(R.id.button2);
-        but1.setOnClickListener(new OnClickListener() {
 
 
-            @Override
-            public void onClick(View view) {
 
-                Intent toy = new Intent(MainActivity.this, Listarobotow.class);
-                startActivity(toy);
-                setContentView(R.layout.activity_listarobotow);
+
+
+    public void Listarobotow1(View view) {
+
+
+        Button button = (Button) findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Listarobotow.class);
+                startActivity(intent);
             }
         });
     }
-
-    public void Listarobotow(View view) {
-    }
 }
+
