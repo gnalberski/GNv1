@@ -13,13 +13,14 @@
         android:layout_height="58dp"
         android:background="@color/czerwony"
         android:onClick="clickexit"
-        android:text="EXIT"
+        android:text="EXIT / BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butmove"
-        app:layout_constraintVertical_bias="1.0"
-        tools:text="EXIT" />
+        app:layout_constraintVertical_bias="0.94"
+        tools:text="EXIT / BACK" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/button2"
@@ -33,9 +34,10 @@
         android:typeface="sans"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butmove"
-        app:layout_constraintVertical_bias="0.946"
+        app:layout_constraintVertical_bias="0.889"
         tools:background="@color/colorAccent"
         tools:ignore="OnClick"
         tools:text="LIST OF ROBOTS >>" />

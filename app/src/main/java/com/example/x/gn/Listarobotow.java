@@ -10,15 +10,24 @@ import android.view.View.OnClickListener;
 import android.widget.Toast;
 import android.app.Activity;
 import android.widget.Button;
+import android.view.View;
+import android.widget.TextView;
 
 public class Listarobotow extends AppCompatActivity {
 
 
-    public void onCreate (Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listarobotow);
+
+        Button btn1 = (Button) findViewById(R.id.button5);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(Listarobotow.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
     }
-
-
-
 }
