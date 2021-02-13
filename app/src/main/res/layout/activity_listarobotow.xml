@@ -4,21 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/omflogo2"
+    android:background="@drawable/omfblackbackground"
     tools:context=".Listarobotow">
 
     <Button
         android:id="@+id/button5"
         android:layout_width="409dp"
-        android:layout_height="74dp"
+        android:layout_height="59dp"
         android:background="@color/czerwony"
         android:clickable="true"
         android:text="BACK TO MAIN MENU"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.948" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="50"
+        android:text="JAGUAR"
+        android:textAlignment="center"
+        android:textColor="@color/czerwony"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="292dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="87dp"
+        android:autoSizeTextType="none"
+        android:ems="1"
+        android:text="Fast and fairly powerful, the Jaguar's a good basic choice for most
+players to learn on. All its special moves are very basic and easy
+to  execute, and  it's  Scrap  and  Destruction are best to use for
+learning how the timing of most scraps and destructions work. Designed as a security and bodyguard HAR, the Jaguar is built around agility and versatility thanks to its simple design and respectable mix of abilities. It is always the first starting robot that pilots receive when playing Tournament Mode, and the default starting selection in single-player mode"
+        android:textColor="@color/czerwony"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="162dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jaguar2"
+        tools:srcCompat="@drawable/jaguar2" />
 
 </android.support.constraint.ConstraintLayout>
