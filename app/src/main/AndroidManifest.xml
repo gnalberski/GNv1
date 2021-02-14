@@ -26,6 +26,31 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".RobotsShadow">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsShadow" />
+
+                <category android:name="android.intent.category.RobotsShadow" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsThorn">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsThorn" />
+
+                <category android:name="android.intent.category.RobotsThorn" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsPyros">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsPyros" />
+
+                <category android:name="android.intent.category.RobotsPyros" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
