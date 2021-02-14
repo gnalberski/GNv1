@@ -5,11 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".Listarobotow">
+    tools:context=".RobotsFlail">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="162dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flail2"
+        tools:srcCompat="@drawable/flail2" />
 
     <TextView
-        android:id="@+id/textView1"
-        android:text="JAGUAR"
+        android:id="@+id/textView227"
+        android:text="FLAIL"
 
         android:textStyle="bold"
         android:layout_width="175dp"
@@ -25,14 +40,11 @@
         />
 
     <TextView
-        android:id="@+id/textView"
-        android:text="Fast and fairly powerful, the Jaguar's a good basic choice for most
-players to learn on. All its special moves are very basic and easy
-to  execute, and  it's  Scrap  and  Destruction are best to use for
-learning how the timing of most scraps and destructions work. Designed as a security and bodyguard HAR, the Jaguar is built around agility and versatility thanks to its simple design and respectable mix of abilities."
+        android:id="@+id/textView58"
+        android:layout_width="371dp"
+        android:text="This 'bot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, 'bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
 
-        android:layout_width="374dp"
-        android:layout_height="240dp"
+        android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
         android:layout_marginEnd="9dp"
@@ -49,26 +61,8 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         app:layout_constraintVertical_bias="0.596"
         />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        app:srcCompat="@drawable/jaguar2"
-        tools:srcCompat="@drawable/jaguar2"
-
-        android:layout_width="162dp"
-        android:layout_height="213dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="221dp"
-        android:layout_marginBottom="384dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
-
     <Button
-        android:id="@+id/button77"
+        android:id="@+id/FlailPowrot"
         android:text="BACK"
 
         app:layout_constraintHorizontal_bias="0.075"
@@ -91,9 +85,9 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         />
 
     <Button
-        android:id="@+id/button33"
-        android:onClick="Listarobotow2"
+        android:id="@+id/FlailDalej"
         android:text="GO TO NEXT ROBOT"
+        android:onClick="Listarobotow10"
 
         android:layout_width="165dp"
         android:layout_height="57dp"
@@ -114,4 +108,6 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         tools:ignore="onClick"
         />
 
+
 </android.support.constraint.ConstraintLayout>
+

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".Listarobotow">
+    tools:context=".RobotsShadow">
 
     <TextView
-        android:id="@+id/textView1"
-        android:text="JAGUAR"
+        android:id="@+id/textView3"
+        android:text="SHADOW"
 
         android:textStyle="bold"
         android:layout_width="175dp"
@@ -24,12 +24,12 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+
+
     <TextView
-        android:id="@+id/textView"
-        android:text="Fast and fairly powerful, the Jaguar's a good basic choice for most
-players to learn on. All its special moves are very basic and easy
-to  execute, and  it's  Scrap  and  Destruction are best to use for
-learning how the timing of most scraps and destructions work. Designed as a security and bodyguard HAR, the Jaguar is built around agility and versatility thanks to its simple design and respectable mix of abilities."
+        android:id="@+id/textView4"
+        android:text="Quick and fairly powerful, the Shadow is one of the easiest 'bots in the game to win  with. Using a combination of AI flaws and quick moves, you can easily beat the computer on the hardest difficulty level almost every time. Shadow is definitely the 'bot to use to find most of the games secrets, as
+a skilled player can almost always get a perfect, or at least near to perfect, round with it."
 
         android:layout_width="374dp"
         android:layout_height="240dp"
@@ -49,10 +49,9 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         app:layout_constraintVertical_bias="0.596"
         />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        app:srcCompat="@drawable/jaguar2"
-        tools:srcCompat="@drawable/jaguar2"
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/shadow3"
 
         android:layout_width="162dp"
         android:layout_height="213dp"
@@ -64,15 +63,16 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
         />
 
+
     <Button
-        android:id="@+id/button77"
+        android:id="@+id/ShadowPowrot"
         android:text="BACK"
 
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintVertical_bias="0.500"
+
 
         tools:background="@color/colorAccent"
         android:textColor="@color/czarny"
@@ -91,9 +91,9 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         />
 
     <Button
-        android:id="@+id/button33"
-        android:onClick="Listarobotow2"
+        android:id="@+id/ShadowDalej"
         android:text="GO TO NEXT ROBOT"
+        android:onClick="Listarobotow3"
 
         android:layout_width="165dp"
         android:layout_height="57dp"
@@ -115,3 +115,4 @@ learning how the timing of most scraps and destructions work. Designed as a secu
         />
 
 </android.support.constraint.ConstraintLayout>
+
