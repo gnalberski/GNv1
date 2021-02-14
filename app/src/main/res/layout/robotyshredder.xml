@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsPyros">
+    tools:context=".RobotsShredder">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView6"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pyros2"
-        tools:srcCompat="@drawable/pyros2" />
+        app:srcCompat="@drawable/shredder2"
+        tools:srcCompat="@drawable/shredder2" />
 
     <TextView
-        android:id="@+id/textView223"
-        android:text="PYROS"
+        android:id="@+id/textView226"
+        android:text="SHREDDER"
 
         android:textStyle="bold"
         android:layout_width="175dp"
@@ -40,9 +40,9 @@
         />
 
     <TextView
-        android:id="@+id/textView53"
+        android:id="@+id/textView56"
         android:layout_width="371dp"
-        android:text="Pyros is another example of a 'bot that relies primarily on raw power to win. Although its flames aren't nearly as powerful as its arms, they are invulnerable to attack. Any special move that comes into contact with the flames is almost always stopped cold. Made to construct and maintain deep-space stations, Pyros is able to independently move in space untethered thanks to its directed thruster systems."
+        android:text="Most important to remember when using Shredder is that this 'bot's only over the other 'bots is its virtually unlimited assortment of powerful combos. A mining robot built to excavate the toughest rock beds, Shredder's arms, feet, and head all contain hardened rock saws or mining drills. Possibly the most agile of the potential robot choices on the ground."
 
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
@@ -62,7 +62,7 @@
         />
 
     <Button
-        android:id="@+id/PyrosPowrot"
+        android:id="@+id/ShredderPowrot"
         android:text="BACK"
 
         app:layout_constraintHorizontal_bias="0.075"
@@ -85,9 +85,9 @@
         />
 
     <Button
-        android:id="@+id/PyrosDalej"
+        android:id="@+id/ShredderDalej"
         android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow6"
+        android:onClick="Listarobotow72"
 
         android:layout_width="165dp"
         android:layout_height="57dp"

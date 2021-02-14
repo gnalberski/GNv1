@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsPyros">
+    tools:context=".RobotsChronos">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView10"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pyros2"
-        tools:srcCompat="@drawable/pyros2" />
+        app:srcCompat="@drawable/chronos2"
+        tools:srcCompat="@drawable/chronos2" />
 
     <TextView
-        android:id="@+id/textView223"
-        android:text="PYROS"
+        android:id="@+id/textView229"
+        android:text="CHRONOS"
 
         android:textStyle="bold"
         android:layout_width="175dp"
@@ -40,9 +40,10 @@
         />
 
     <TextView
-        android:id="@+id/textView53"
+        android:id="@+id/textView61"
         android:layout_width="371dp"
-        android:text="Pyros is another example of a 'bot that relies primarily on raw power to win. Although its flames aren't nearly as powerful as its arms, they are invulnerable to attack. Any special move that comes into contact with the flames is almost always stopped cold. Made to construct and maintain deep-space stations, Pyros is able to independently move in space untethered thanks to its directed thruster systems."
+        android:text="Made for a search and rescue role, Chronos has the special ability to briefly stop time using a Stasis Field Generator. Not really excelling in any particular strengths nor garnishing any real flaws in regards to Speed, Power, and Armor, Chronos is pretty well-rounded, but by no means special either. This time-stopping power can be leveraged to 'freeze' enemies in place for attacks as well.
+"
 
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
@@ -62,7 +63,7 @@
         />
 
     <Button
-        android:id="@+id/PyrosPowrot"
+        android:id="@+id/ChronosPowrot"
         android:text="BACK"
 
         app:layout_constraintHorizontal_bias="0.075"
@@ -82,30 +83,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
-
-    <Button
-        android:id="@+id/PyrosDalej"
-        android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow6"
-
-        android:layout_width="165dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="527dp"
-        android:layout_marginEnd="10dp"
-        android:background="@color/czerwony"
-        android:clickable="true"
-        android:textColor="@color/czarny"
-        android:textSize="22dp"
-        android:typeface="sans"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.500"
-        tools:background="@color/colorAccent"
-        tools:ignore="onClick"
         />
 
 

@@ -7,37 +7,31 @@
     android:background="@drawable/omfblackbackground"
     tools:context=".RobotsShadow">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="223dp"
-        android:layout_marginBottom="384dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shadow3" />
-
     <TextView
         android:id="@+id/textView3"
+        android:text="SHADOW"
+
+        android:textStyle="bold"
         android:layout_width="175dp"
         android:layout_height="65dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="16dp"
         android:autoSizeTextType="uniform"
         android:ems="50"
-        android:text="SHADOW"
         android:textAlignment="center"
         android:textColor="@color/czerwony"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="377dp"
+        android:text="Quick and fairly powerful, the Shadow is one of the easiest 'bots in the game to win  with. Using a combination of AI flaws and quick moves, you can easily beat the computer on the hardest difficulty level almost every time. Shadow is definitely the 'bot to use to find most of the games secrets, as
+a skilled player can almost always get a perfect, or at least near to perfect, round with it."
+
+        android:layout_width="374dp"
         android:layout_height="240dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
@@ -45,48 +39,80 @@
         android:layout_marginBottom="87dp"
         android:autoSizeTextType="none"
         android:ems="1"
-        android:text="Quick and fairly powerful, the Shadow is one of the easiest 'bots in
-the game to win  with. Using a combination of AI flaws and quick moves, you can easily beat the computer on the hardest difficulty level almost every time.The Shadow is definitely the 'bot to use to find most of the games secrets, as
-a skilled player can almost always get a perfect, or at least near to perfect, round with it"
         android:textColor="@color/czerwony"
         android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261" />
+        app:layout_constraintVertical_bias="0.596"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/shadow3"
+
+        android:layout_width="162dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
 
     <Button
         android:id="@+id/ShadowPowrot"
-        android:layout_width="114dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="260dp"
-        android:layout_marginBottom="29dp"
         android:text="BACK"
+
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintVertical_bias="0.500"
+
+
+        tools:background="@color/colorAccent"
+        android:textColor="@color/czarny"
+        android:textSize="22dp"
+        android:typeface="sans"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/czerwony"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        />
 
     <Button
         android:id="@+id/ShadowDalej"
-        android:layout_width="184dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="189dp"
-        android:layout_marginTop="514dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="29dp"
         android:text="GO TO NEXT ROBOT"
         android:onClick="Listarobotow3"
+
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/czerwony"
+        android:clickable="true"
+        android:textColor="@color/czarny"
+        android:textSize="22dp"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500"
+        tools:background="@color/colorAccent"
+        tools:ignore="onClick"
+        />
 
 </android.support.constraint.ConstraintLayout>
 

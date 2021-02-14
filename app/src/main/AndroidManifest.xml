@@ -50,6 +50,55 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".RobotsElectra">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsElectra" />
+
+                <category android:name="android.intent.category.RobotsElectra" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsKatana">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsKatana" />
+
+                <category android:name="android.intent.category.RobotsKatana" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsShredder">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsShredder" />
+
+                <category android:name="android.intent.category.RobotsShredder" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsFlail">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsFLail" />
+
+                <category android:name="android.intent.category.RobotsFLail" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsGargoyle">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsGargoyle" />
+
+                <category android:name="android.intent.category.RobotsGargoyle" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RobotsChronos">
+            <intent-filter>
+                <action android:name="android.intent.action.RobotsChronos" />
+
+                <category android:name="android.intent.category.RobotsChronos" />
+            </intent-filter>
+        </activity>
+
+
 
     </application>
 

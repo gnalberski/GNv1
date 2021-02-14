@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsPyros">
+    tools:context=".RobotsKatana">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView5"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pyros2"
-        tools:srcCompat="@drawable/pyros2" />
+        app:srcCompat="@drawable/katana2"
+        tools:srcCompat="@drawable/katana2" />
 
     <TextView
-        android:id="@+id/textView223"
-        android:text="PYROS"
+        android:id="@+id/textView225"
+        android:text="KATANA"
 
         android:textStyle="bold"
         android:layout_width="175dp"
@@ -40,9 +40,14 @@
         />
 
     <TextView
-        android:id="@+id/textView53"
+        android:id="@+id/textView54"
         android:layout_width="371dp"
-        android:text="Pyros is another example of a 'bot that relies primarily on raw power to win. Although its flames aren't nearly as powerful as its arms, they are invulnerable to attack. Any special move that comes into contact with the flames is almost always stopped cold. Made to construct and maintain deep-space stations, Pyros is able to independently move in space untethered thanks to its directed thruster systems."
+        android:text="Definitely one of the most enjoyable 'bots to play with,
+Katana has a well rounded variety of basic attacks and special
+Moves, the latter of which, when used properly, can madden your
+human opponents to the point of less than tasteful dialogue. With
+some very strong attacks and a good assortment of possible combos,
+ Katana is about the most well rounded 'bot to use."
 
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
@@ -62,7 +67,7 @@
         />
 
     <Button
-        android:id="@+id/PyrosPowrot"
+        android:id="@+id/KatanaPowrot"
         android:text="BACK"
 
         app:layout_constraintHorizontal_bias="0.075"
@@ -85,9 +90,9 @@
         />
 
     <Button
-        android:id="@+id/PyrosDalej"
+        android:id="@+id/KatanaDalej"
         android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow6"
+        android:onClick="Listarobotow61"
 
         android:layout_width="165dp"
         android:layout_height="57dp"

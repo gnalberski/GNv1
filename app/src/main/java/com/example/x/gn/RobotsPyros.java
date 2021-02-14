@@ -1,6 +1,9 @@
 package com.example.x.gn;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class RobotsPyros extends RobotsThorn {
 
@@ -9,30 +12,30 @@ public class RobotsPyros extends RobotsThorn {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.robotypyros);
 
-//        Button btn4= (Button) findViewById(R.id.ShadowPowrot);
-//        btn4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                Intent iiii = new Intent(RobotsShadow.this, Listarobotow.class);
-//                startActivity(iiii);
-//            }
-//        });
-    }
-//
-//
-//    public void Listarobotow3(View view) {
-//
-//
-//        Button button333 = (Button) findViewById(R.id.ShadowDalej);
-//        button333.setOnClickListener(new View.OnClickListener() {
-//
-//            public void onClick(View v) {
-//                Intent intent3 = new Intent(RobotsShadow.this, Listarobotow.class);
-//                startActivity(intent3);
-//            }
-//        });
-//    }
+            Button btn5= (Button) findViewById(R.id.PyrosPowrot);
+            btn5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent iiii = new Intent(RobotsPyros.this, RobotsThorn.class);
+                    startActivity(iiii);
+                }
+            });
+        }
+
+
+        public void Listarobotow6 (View view) {
+
+
+            Button button444 = (Button) findViewById(R.id.PyrosDalej);
+            button444.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View v) {
+                    Intent intent4 = new Intent(RobotsPyros.this, RobotsElectra.class);
+                    startActivity(intent4);
+                }
+            });
+        }
 
 
 
