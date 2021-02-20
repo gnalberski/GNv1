@@ -42,12 +42,7 @@
     <TextView
         android:id="@+id/textView54"
         android:layout_width="371dp"
-        android:text="Definitely one of the most enjoyable 'bots to play with,
-Katana has a well rounded variety of basic attacks and special
-Moves, the latter of which, when used properly, can madden your
-human opponents to the point of less than tasteful dialogue. With
-some very strong attacks and a good assortment of possible combos,
- Katana is about the most well rounded 'bot to use."
+        android:text="Definitely one of the most enjoyable robots to play with, Katana has a well rounded variety of basic attacks and special moves, the latter of which, when used properly, can madden your human opponents to the point of less than tasteful dialogue. With some very strong attacks and a good assortment of possible combos, Katana is about the most well rounded robot to use."
 
         android:layout_height="255dp"
         android:layout_marginStart="13dp"

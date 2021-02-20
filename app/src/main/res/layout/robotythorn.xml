@@ -43,7 +43,6 @@
         android:id="@+id/textView52"
         android:layout_width="371dp"
         android:text="Able to take ungodly amounts of damage without flinching, having some of the most damaging moves in the game, and yet painfully slow, Thorn is definitely to OMF what Zangief is to the Street Fighter II series. However, despite his lack of speed, the damage Thorn causes with every attack (particularly his Speed Kick) and extremely tough armor more than make up for one or two extra hits your opponent may land."
-
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"

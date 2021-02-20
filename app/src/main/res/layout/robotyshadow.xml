@@ -28,9 +28,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:text="Quick and fairly powerful, the Shadow is one of the easiest 'bots in the game to win  with. Using a combination of AI flaws and quick moves, you can easily beat the computer on the hardest difficulty level almost every time. Shadow is definitely the 'bot to use to find most of the games secrets, as
-a skilled player can almost always get a perfect, or at least near to perfect, round with it."
-
+        android:text="Quick and fairly powerful, Shadow is one of the easiest robots in the game to win  with. Using a combination of AI flaws and quick moves, you can easily beat the computer on the hardest difficulty level almost every time. Shadow is definitely the robot to use to find most of the games secrets, as a skilled player can almost always get a perfect, or at least near to perfect, round with it."
         android:layout_width="374dp"
         android:layout_height="240dp"
         android:layout_marginStart="13dp"

@@ -42,8 +42,7 @@
     <TextView
         android:id="@+id/textView58"
         android:layout_width="371dp"
-        android:text="This 'bot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, 'bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
-
+        android:text="This robot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"

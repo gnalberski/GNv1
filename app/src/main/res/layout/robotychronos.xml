@@ -42,9 +42,7 @@
     <TextView
         android:id="@+id/textView61"
         android:layout_width="371dp"
-        android:text="Made for a search and rescue role, Chronos has the special ability to briefly stop time using a Stasis Field Generator. Not really excelling in any particular strengths nor garnishing any real flaws in regards to Speed, Power, and Armor, Chronos is pretty well-rounded, but by no means special either. This time-stopping power can be leveraged to 'freeze' enemies in place for attacks as well.
-"
-
+        android:text="Made for a search and rescue role, Chronos has the special ability to briefly stop time using a Stasis Field Generator. Not really excelling in any particular strengths nor garnishing any real flaws in regards to speed, power, and armor, Chronos is pretty well-rounded, but by no means special either. This time-stopping power can be leveraged to 'freeze' enemies in place for attacks as well."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"

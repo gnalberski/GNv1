@@ -42,8 +42,7 @@
     <TextView
         android:id="@+id/textView53"
         android:layout_width="371dp"
-        android:text="Relying primarily on lightning fast moves and a great defensive Special Move(Electric Shards), Electra is a 'bot for none but the most nimble of thumbs. Built from extremely rare crystals mined from Jupiter's moon Io, Electra can resist immense electrical storms that would cripple lesser robots. Unfortunately, it's both fragile and ludicrously expensive as a result."
-
+        android:text="Relying primarily on lightning fast moves and a great defensive special move (Electric Shards), Electra is a robot for none but the most nimble of thumbs. Built from extremely rare crystals mined from Jupiter's moon, Electra can resist immense electrical storms that would cripple lesser robots. Unfortunately, it's both fragile and ludicrously are expensive as a result."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
