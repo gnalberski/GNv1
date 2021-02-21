@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsFlail">
+    tools:context=".PilotsIbrahim">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView294"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flail2"
-        tools:srcCompat="@drawable/flail2" />
+        app:srcCompat="@drawable/ibrahim"
+        tools:srcCompat="@drawable/ibrahim" />
 
     <TextView
-        android:id="@+id/textView227"
-        android:text="FLAIL"
+        android:id="@+id/textView22294"
+        android:text="IBRAHIM"
         android:layout_width="175dp"
         android:layout_height="65dp"
         android:layout_marginStart="202dp"
@@ -43,9 +43,9 @@
         />
 
     <TextView
-        android:id="@+id/textView58"
+        android:id="@+id/textView5294"
         android:layout_width="371dp"
-        android:text="This robot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
+        android:text="A retired triathlete, Ibrahim's patience and honesty have made him a valued mentor to many aspiring competitors. His knowledge of the internal workings of the HARs makes him a favorite to win. He often will take a few hits and then return fire with incredible accuracy."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
@@ -64,7 +64,7 @@
         />
 
     <Button
-        android:id="@+id/FlailPowrot"
+        android:id="@+id/IbrahimPowrot"
         android:text="BACK"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintVertical_bias="0.500"
@@ -85,9 +85,9 @@
         />
 
     <Button
-        android:id="@+id/FlailDalej"
-        android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow10"
+        android:id="@+id/IbrahimDalej"
+        android:text="GO TO NEXT PILOT"
+        android:onClick="Listapilotow6697"
         android:background="@color/colorAccent"
         android:layout_width="165dp"
         android:layout_height="57dp"

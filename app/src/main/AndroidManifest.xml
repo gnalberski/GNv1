@@ -98,6 +98,86 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".PilotsCrystal">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsCrystal" />
+
+                <category android:name="android.intent.category.PilotsCrystal" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsSteffan">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsSteffan" />
+
+                <category android:name="android.intent.category.PilotsSteffan" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsMilano">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsMilano" />
+
+                <category android:name="android.intent.category.PilotsMilano" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsChristian">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsChristian" />
+
+                <category android:name="android.intent.category.PilotsChristian" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsShirro">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsShirro" />
+
+                <category android:name="android.intent.category.PilotsShirro" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsJeanpaul">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsJeanpaul" />
+
+                <category android:name="android.intent.category.PilotsJeanpaul" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsIbrahim">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsIbrahim" />
+
+                <category android:name="android.intent.category.PilotsIbrahim" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsAngel">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsAngel" />
+
+                <category android:name="android.intent.category.PilotsAngel" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsCossette">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsCossette" />
+
+                <category android:name="android.intent.category.PilotsCossette" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PilotsRaven">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsRaven" />
+
+                <category android:name="android.intent.category.PilotsRaven" />
+            </intent-filter>
+        </activity>
+
 
 
     </application>

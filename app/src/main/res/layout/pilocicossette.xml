@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsFlail">
+    tools:context=".PilotsCossette">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView292"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flail2"
-        tools:srcCompat="@drawable/flail2" />
+        app:srcCompat="@drawable/cossette"
+        tools:srcCompat="@drawable/cossette" />
 
     <TextView
-        android:id="@+id/textView227"
-        android:text="FLAIL"
+        android:id="@+id/textView22292"
+        android:text="COSSETTE"
         android:layout_width="175dp"
         android:layout_height="65dp"
         android:layout_marginStart="202dp"
@@ -43,9 +43,9 @@
         />
 
     <TextView
-        android:id="@+id/textView58"
+        android:id="@+id/textView5292"
         android:layout_width="371dp"
-        android:text="This robot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
+        android:text="A veteran fighter, Cossette has became cautious, defensive and bitter after being crippled in the arena. Cossette also was instrumental in the design of Electra."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
@@ -64,7 +64,7 @@
         />
 
     <Button
-        android:id="@+id/FlailPowrot"
+        android:id="@+id/CossettePowrot"
         android:text="BACK"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintVertical_bias="0.500"
@@ -85,9 +85,9 @@
         />
 
     <Button
-        android:id="@+id/FlailDalej"
-        android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow10"
+        android:id="@+id/CossetteDalej"
+        android:text="GO TO NEXT PILOT"
+        android:onClick="Listapilotow6691"
         android:background="@color/colorAccent"
         android:layout_width="165dp"
         android:layout_height="57dp"

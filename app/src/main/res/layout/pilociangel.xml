@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/omfblackbackground"
-    tools:context=".RobotsFlail">
+    tools:context=".PilotsAngel">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView290"
         android:layout_width="162dp"
         android:layout_height="213dp"
         android:layout_marginStart="16dp"
@@ -19,12 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flail2"
-        tools:srcCompat="@drawable/flail2" />
+        app:srcCompat="@drawable/angel"
+        tools:srcCompat="@drawable/angel" />
 
     <TextView
-        android:id="@+id/textView227"
-        android:text="FLAIL"
+        android:id="@+id/textView22290"
+        android:text="ANGEL"
         android:layout_width="175dp"
         android:layout_height="65dp"
         android:layout_marginStart="202dp"
@@ -43,9 +43,8 @@
         />
 
     <TextView
-        android:id="@+id/textView58"
+        android:id="@+id/textView5290"
         android:layout_width="371dp"
-        android:text="This robot looks like it could handle anything from smart missiles to heavy indigestion. And it can, too. Although discouraging to learn, Flail is one of the more interesting, and fun, bots to use. Designed with demolitions in mind, Flail is a gigantic robotic wrecking ball, using its five-ton chains to maximum effect against old buildings, inconvenient walls, and any robot standing too close for their comfort."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
@@ -53,6 +52,7 @@
         android:layout_marginBottom="87dp"
         android:autoSizeTextType="none"
         android:ems="1"
+        android:text="Angel's past is shrouded in mystery. Aside from her reclusive disposition and strong will, little is known of her. When her name was announced as a finalist for the position, reporters were astounded by the fact that not only did she not have any known background, but she wasn't even an employee of WAR."
         android:textColor="@color/czerwony"
         android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,40 +60,38 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596"
-        />
+        app:layout_constraintVertical_bias="0.596" />
 
     <Button
-        android:id="@+id/FlailPowrot"
-        android:text="BACK"
-        app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintVertical_bias="0.500"
+        android:id="@+id/AngelPowrot"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="527dp"
         android:background="@color/colorAccent"
-        tools:background="@color/colorAccent"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:text="BACK"
         android:textColor="@color/czarny"
         android:textSize="22dp"
         android:typeface="sans"
-        android:layout_width="165dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="527dp"
-        android:layout_marginEnd="10dp"
-        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintVertical_bias="0.500"
+        tools:background="@color/colorAccent" />
 
     <Button
-        android:id="@+id/FlailDalej"
-        android:text="GO TO NEXT ROBOT"
-        android:onClick="Listarobotow10"
-        android:background="@color/colorAccent"
+        android:id="@+id/AngelDalej"
         android:layout_width="165dp"
         android:layout_height="57dp"
+        android:background="@color/colorAccent"
         android:layout_marginTop="527dp"
         android:layout_marginEnd="10dp"
         android:clickable="true"
+        android:onClick="Listapilotow6690"
+        android:text="GO TO NEXT PILOT"
         android:textColor="@color/czarny"
         android:textSize="22dp"
         android:typeface="sans"
@@ -104,8 +102,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.500"
         tools:background="@color/colorAccent"
-        tools:ignore="onClick"
-        />
+        tools:ignore="onClick" />
 
 
 </android.support.constraint.ConstraintLayout>

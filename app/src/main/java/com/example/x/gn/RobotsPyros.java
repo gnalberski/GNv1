@@ -24,7 +24,7 @@ public class RobotsPyros extends RobotsThorn {
         }
 
 
-        public void Listarobotow6 (View view) {
+        public void Listarobotow606 (View view) {
 
 
             Button button444 = (Button) findViewById(R.id.PyrosDalej);
