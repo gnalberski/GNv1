@@ -38,6 +38,18 @@ public class RobotsShadow extends Listarobotow {
         });
     }
 
+    public void PickRobotShadow(View view) {
+
+
+        Button buttonPickRobotShadow = (Button) findViewById(R.id.PickRobotShadow);
+        buttonPickRobotShadow.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotShadow = new Intent(RobotsShadow.this, PilotsCrystal.class);
+                startActivity(intentPickRobotShadow);
+            }
+        });
+    }
 
 
 }

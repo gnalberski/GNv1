@@ -5,22 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PilotsCrystal extends RobotsChronos{
+public class PilotsCrystal extends SelectedRobotAndPilot{
+
 
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pilocicrystal);
-
-        Button btn8= (Button) findViewById(R.id.CrystalPowrot);
-        btn8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent i52 = new Intent(PilotsCrystal.this, RobotsChronos.class);
-                startActivity(i52);
-            }
-        });
     }
+
 
     public void Listapilotow6692 (View view) {
 
@@ -31,6 +23,19 @@ public class PilotsCrystal extends RobotsChronos{
             public void onClick(View v) {
                 Intent intent552 = new Intent(PilotsCrystal.this, PilotsSteffan.class);
                 startActivity(intent552);
+            }
+        });
+    }
+
+    public void SelectPilotCrystal(View view) {
+
+
+        Button buttonSelectPilotCrystal = (Button) findViewById(R.id.PickPilotCrystal);
+        buttonSelectPilotCrystal.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotCrystal = new Intent(PilotsCrystal.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotCrystal);
             }
         });
     }

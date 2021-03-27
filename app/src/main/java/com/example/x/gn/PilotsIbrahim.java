@@ -35,6 +35,17 @@ public class PilotsIbrahim extends PilotsJeanpaul{
         });
     }
 
+    public void SelectPilotIbrahim(View view) {
 
+
+        Button buttonSelectPilotIbrahim = (Button) findViewById(R.id.PickPilotIbrahim);
+        buttonSelectPilotIbrahim.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotIbrahim = new Intent(PilotsIbrahim.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotIbrahim);
+            }
+        });
+    }
 
 }

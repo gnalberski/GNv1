@@ -35,6 +35,19 @@ public class PilotsCossette extends PilotsIbrahim{
         });
     }
 
+    public void SelectPilotCossette(View view) {
+
+
+        Button buttonSelectPilotCossette = (Button) findViewById(R.id.PickPilotCossette);
+        buttonSelectPilotCossette.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotCossette = new Intent(PilotsCossette.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotCossette);
+            }
+        });
+    }
+
 
 
 }

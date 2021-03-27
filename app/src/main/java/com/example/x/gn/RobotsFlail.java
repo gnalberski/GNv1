@@ -35,4 +35,18 @@ public class RobotsFlail extends RobotsShredder{
             }
         });
     }
+
+    public void PickRobotFlail(View view) {
+
+
+        Button buttonPickRobotFlail = (Button) findViewById(R.id.PickRobotFlail);
+        buttonPickRobotFlail.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotFlail = new Intent(RobotsFlail.this, PilotsCrystal.class);
+                startActivity(intentPickRobotFlail);
+            }
+        });
+    }
+
 }

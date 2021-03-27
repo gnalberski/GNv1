@@ -35,6 +35,17 @@ public class PilotsMilano extends PilotsSteffan{
         });
     }
 
+    public void SelectPilotMilano(View view) {
 
+
+        Button buttonSelectPilotMilano = (Button) findViewById(R.id.PickPilotMilano);
+        buttonSelectPilotMilano.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotMilano = new Intent(PilotsMilano.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotMilano);
+            }
+        });
+    }
 
 }

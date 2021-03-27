@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView22295"
-        android:text="JEAN-PAUL"
+        android:text="@string/jeanpaul"
         android:layout_width="185dp"
         android:layout_height="65dp"
         android:layout_marginStart="202dp"
@@ -103,6 +103,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.500"
+        tools:background="@color/colorAccent"
+        tools:ignore="onClick"
+        />
+
+    <Button
+        android:id="@+id/PickPilotJeanpaul"
+        android:onClick="SelectPilotJeanpaul"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="428dp"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:text="PICK PILOT"
+        android:textColor="@color/czarny"
+        android:textSize="22dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:background="@color/colorAccent"
         tools:ignore="onClick"
         />

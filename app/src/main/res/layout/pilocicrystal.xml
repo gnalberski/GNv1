@@ -24,7 +24,6 @@
 
     <TextView
         android:id="@+id/textView22293"
-        android:text="CRYSTAL"
         android:layout_width="175dp"
         android:layout_height="65dp"
         android:layout_marginStart="202dp"
@@ -32,6 +31,7 @@
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="508dp"
         android:autoSizeTextType="none"
+        android:text="@string/crystal"
         android:textAlignment="center"
         android:textColor="@color/czerwony"
         android:textSize="33dp"
@@ -39,13 +39,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5293"
         android:layout_width="371dp"
-        android:text="Forced to fend for herself after her parents mysterious death, Crystal's determination has earned great respect. She believes that WAR is responsible and that the access code will gain her entry into the secret files and hopefully the information on what happened to her parents."
         android:layout_height="255dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="224dp"
@@ -53,6 +51,7 @@
         android:layout_marginBottom="87dp"
         android:autoSizeTextType="none"
         android:ems="1"
+        android:text="Forced to fend for herself after her parents mysterious death, Crystal's determination has earned great respect. She believes that WAR is responsible and that the access code will gain her entry into the secret files and hopefully the information on what happened to her parents."
         android:textColor="@color/czerwony"
         android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,40 +59,19 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596"
-        />
-
-    <Button
-        android:id="@+id/CrystalPowrot"
-        android:text="BACK"
-        app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintVertical_bias="0.500"
-        android:background="@color/colorAccent"
-        tools:background="@color/colorAccent"
-        android:textColor="@color/czarny"
-        android:textSize="22dp"
-        android:typeface="sans"
-        android:layout_width="165dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="527dp"
-        android:layout_marginEnd="10dp"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintVertical_bias="0.596" />
 
     <Button
         android:id="@+id/CrystalDalej"
-        android:text="GO TO NEXT PILOT"
-        android:onClick="Listapilotow6692"
-
         android:layout_width="165dp"
         android:layout_height="57dp"
+
         android:layout_marginTop="527dp"
         android:layout_marginEnd="10dp"
+        android:background="@color/colorAccent"
         android:clickable="true"
+        android:onClick="Listapilotow6692"
+        android:text="GO TO NEXT PILOT"
         android:textColor="@color/czarny"
         android:textSize="22dp"
         android:typeface="sans"
@@ -104,7 +82,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.500"
         tools:background="@color/colorAccent"
+        tools:ignore="onClick" />
+
+    <Button
+        android:id="@+id/PickPilotCrystal"
+        android:onClick="SelectPilotCrystal"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="428dp"
         android:background="@color/colorAccent"
+        android:clickable="true"
+        android:text="PICK PILOT"
+        android:textColor="@color/czarny"
+        android:textSize="22dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/colorAccent"
         tools:ignore="onClick"
         />
 

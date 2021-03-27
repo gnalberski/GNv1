@@ -35,6 +35,18 @@ public class PilotsAngel extends PilotsIbrahim{
         });
     }
 
+    public void SelectPilotCrystal(View view) {
+
+
+        Button buttonSelectPilotAngel = (Button) findViewById(R.id.PickPilotAngel);
+        buttonSelectPilotAngel.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotAngel = new Intent(PilotsAngel.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotAngel);
+            }
+        });
+    }
 
 
 }

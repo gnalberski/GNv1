@@ -178,6 +178,14 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".SelectedRobotAndPilot">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsRaven" />
+
+                <category android:name="android.intent.category.PilotsRaven" />
+            </intent-filter>
+        </activity>
+
 
 
     </application>

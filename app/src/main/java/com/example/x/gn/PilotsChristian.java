@@ -35,6 +35,20 @@ public class PilotsChristian extends PilotsMilano{
         });
     }
 
+    public void SelectPilotChristian(View view) {
+
+
+        Button buttonSelectPilotChristian = (Button) findViewById(R.id.PickPilotChristian);
+        buttonSelectPilotChristian.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotChristian = new Intent(PilotsChristian.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotChristian);
+            }
+        });
+    }
+
+
 
 
 }

@@ -35,4 +35,20 @@ public class RobotsKatana extends RobotsElectra{
             }
         });
     }
+
+    public void PickRobotKatana(View view) {
+
+
+        Button buttonPickRobotKatana = (Button) findViewById(R.id.PickRobotKatana);
+        buttonPickRobotKatana.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotKatana = new Intent(RobotsKatana.this, PilotsCrystal.class);
+                startActivity(intentPickRobotKatana);
+            }
+        });
+    }
+
+
 }
+

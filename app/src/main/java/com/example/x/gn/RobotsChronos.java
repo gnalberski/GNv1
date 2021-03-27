@@ -22,19 +22,18 @@ public class RobotsChronos extends RobotsGargoyle{
         });
     }
 
-    public void Listarobotow669 (View view) {
+    public void PickRobotChronos(View view) {
 
 
-        Button button55500 = (Button) findViewById(R.id.ChronosDalej);
-        button55500.setOnClickListener(new View.OnClickListener() {
+        Button buttonPickRobotChronos = (Button) findViewById(R.id.PickRobotChronos);
+        buttonPickRobotChronos.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intent5500 = new Intent(RobotsChronos.this, PilotsCrystal.class);
-                startActivity(intent5500);
+                Intent intentPickRobotChronos = new Intent(RobotsChronos.this, PilotsCrystal.class);
+                startActivity(intentPickRobotChronos);
             }
         });
     }
-
 
 
 }

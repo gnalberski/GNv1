@@ -36,6 +36,19 @@ public class RobotsElectra extends RobotsPyros{
         });
     }
 
+    public void PickRobotElectra(View view) {
+
+
+        Button buttonPickRobotElectra = (Button) findViewById(R.id.PickRobotElectra);
+        buttonPickRobotElectra.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotElectra = new Intent(RobotsElectra.this, PilotsCrystal.class);
+                startActivity(intentPickRobotElectra);
+            }
+        });
+    }
+
 
 
 }

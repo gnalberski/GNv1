@@ -35,6 +35,17 @@ public class PilotsJeanpaul extends PilotsShirro{
         });
     }
 
+    public void SelectPilotJeanpaul(View view) {
 
+
+        Button buttonSelectPilotJeanpaul = (Button) findViewById(R.id.PickPilotCrystal);
+        buttonSelectPilotJeanpaul.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotJeanpaul = new Intent(PilotsJeanpaul.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotJeanpaul);
+            }
+        });
+    }
 
 }

@@ -35,6 +35,17 @@ public class PilotsShirro extends PilotsChristian{
         });
     }
 
+    public void SelectPilotShirro(View view) {
 
+
+        Button buttonSelectPilotShirro = (Button) findViewById(R.id.PickPilotShirro);
+        buttonSelectPilotShirro.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotShirro = new Intent(PilotsShirro.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotShirro);
+            }
+        });
+    }
 
 }

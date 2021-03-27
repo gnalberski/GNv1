@@ -35,4 +35,19 @@ public class RobotsShredder extends RobotsKatana{
             }
         });
     }
+
+    public void PickRobotShredder(View view) {
+
+
+        Button buttonPickRobotShredder = (Button) findViewById(R.id.PickRobotShredder);
+        buttonPickRobotShredder.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotShredder = new Intent(RobotsShredder.this, PilotsCrystal.class);
+                startActivity(intentPickRobotShredder);
+            }
+        });
+    }
+
+
 }

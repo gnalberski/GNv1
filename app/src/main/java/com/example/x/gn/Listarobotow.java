@@ -24,7 +24,7 @@ public class Listarobotow extends AppCompatActivity {
         });
     }
 
-    public void Listarobotow2 (View view) {
+    public void Listarobotow2(View view) {
 
 
         Button button22 = (Button) findViewById(R.id.button33);
@@ -33,10 +33,22 @@ public class Listarobotow extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent2 = new Intent(Listarobotow.this, RobotsShadow.class);
                 startActivity(intent2);
+
             }
         });
     }
 
+    public void PickRobotJaguar(View view) {
 
+
+        Button buttonPickRobotCrystal = (Button) findViewById(R.id.PickRobotJaguar);
+        buttonPickRobotCrystal.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentPickRobotCrystal = new Intent(Listarobotow.this, PilotsCrystal.class);
+                startActivity(intentPickRobotCrystal);
+            }
+        });
+    }
 
 }

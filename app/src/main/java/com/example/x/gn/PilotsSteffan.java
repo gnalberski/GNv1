@@ -35,6 +35,17 @@ public class PilotsSteffan extends PilotsCrystal{
         });
     }
 
+    public void SelectPilotSteffan(View view) {
 
+
+        Button buttonSelectPilotSteffan = (Button) findViewById(R.id.PickPilotSteffan);
+        buttonSelectPilotSteffan.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intentSelectPilotSteffan = new Intent(PilotsSteffan.this, SelectedRobotAndPilot.class);
+                startActivity(intentSelectPilotSteffan);
+            }
+        });
+    }
 
 }

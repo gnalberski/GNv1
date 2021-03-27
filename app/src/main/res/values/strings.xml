@@ -1,4 +1,28 @@
 <resources>
     <string name="app_name">GN v1</string>
     <string name="textview">TextView</string>
+    <string name="chooserobottext">YOU HAVE CHOSEN ROBOT:</string>
+    <string name="choosepilottext">YOU HAVE CHOSEN PILOT:</string>
+    <string name="jaguar">JAGUAR</string>
+    <string name="angel">ANGEL</string>
+    <string name="christian">CHRISTIAN</string>
+    <string name="cossette">COSSETTE</string>
+    <string name="crystal">CRYSTAL</string>
+    <string name="ibrahim">IBRAHIM</string>
+    <string name="jeanpaul">JEAN-PAUL</string>
+    <string name="milano">MILANO</string>
+    <string name="raven">RAVEN</string>
+    <string name="shirro">SHIRRO</string>
+    <string name="steffan">STEFFAN</string>
+    <string name="chronos">CHRONOS</string>
+    <string name="electra">ELECTRA</string>
+    <string name="flail">FLAIL</string>
+    <string name="gargoyle">GARGOYLE</string>
+    <string name="katana">KATANA</string>
+    <string name="pyros">PYROS</string>
+    <string name="shadow">SHADOW</string>
+    <string name="shredder">SHREDDER</string>
+    <string name="thorn">THORN</string>
+
+
 </resources>
