@@ -42,7 +42,7 @@ public class PilotsSteffan extends PilotsCrystal{
         buttonSelectPilotSteffan.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotSteffan = new Intent(PilotsSteffan.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotSteffan = new Intent(PilotsSteffan.this, SelectedRobotJaguar.class);
                 startActivity(intentSelectPilotSteffan);
             }
         });

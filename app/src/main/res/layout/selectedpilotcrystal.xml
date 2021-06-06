@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omfblackbackground"
+    tools:context=".SelectedPilotCrystal"
+    >
+
+
+    <TextView
+        android:id="@+id/SelectedPilot"
+        android:layout_width="356dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/choosepilottext"
+        android:textColor="@color/czerwony"
+        android:textSize="32dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5crystal"
+        android:layout_width="356dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="684dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/crystal"
+        android:textColor="@color/czerwony"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SelectedRobot"
+        android:layout_width="363dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="566dp"
+        android:text="@string/chooserobottext"
+        android:textColor="@color/czerwony"
+        android:textSize="32dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5Jaguar"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="437dp"
+        android:text="@string/jaguar"
+        android:textColor="@color/czerwony"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView3"
+        android:layout_width="391dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="317dp"
+        android:scaleX="7"
+        android:src="@drawable/piorungif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

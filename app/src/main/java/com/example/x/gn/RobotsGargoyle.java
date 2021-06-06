@@ -39,12 +39,12 @@ public class RobotsGargoyle extends RobotsFlail{
     public void PickRobotGargoyle(View view) {
 
 
-        Button buttonPickRobotGargoyle = (Button) findViewById(R.id.PickRobotGargoyle);
-        buttonPickRobotGargoyle.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotGargoyle1 = (Button) findViewById(R.id.PickRobotGargoyle);
+        buttonintentSelectedRobotGargoyle1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotGargoyle = new Intent(RobotsGargoyle.this, PilotsCrystal.class);
-                startActivity(intentPickRobotGargoyle);
+                Intent intentSelectedRobotGargoyle1 = new Intent(RobotsGargoyle.this, SelectedRobotGargoyle.class);
+                startActivity(intentSelectedRobotGargoyle1);
             }
         });
     }

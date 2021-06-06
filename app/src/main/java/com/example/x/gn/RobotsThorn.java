@@ -41,12 +41,12 @@ public class RobotsThorn extends RobotsShadow {
     public void PickRobotThorn(View view) {
 
 
-        Button buttonPickRobotThorn = (Button) findViewById(R.id.PickRobotThorn);
-        buttonPickRobotThorn.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotThorn1 = (Button) findViewById(R.id.PickRobotThorn);
+        buttonintentSelectedRobotThorn1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotThorn = new Intent(RobotsThorn.this, PilotsCrystal.class);
-                startActivity(intentPickRobotThorn);
+                Intent intentSelectedRobotThorn1 = new Intent(RobotsThorn.this, SelectedRobotThorn.class);
+                startActivity(intentSelectedRobotThorn1);
             }
         });
     }

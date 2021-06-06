@@ -24,7 +24,6 @@ public class RobotsShadow extends Listarobotow {
         });
     }
 
-
     public void Listarobotow3(View view) {
 
 
@@ -40,16 +39,14 @@ public class RobotsShadow extends Listarobotow {
 
     public void PickRobotShadow(View view) {
 
-
-        Button buttonPickRobotShadow = (Button) findViewById(R.id.PickRobotShadow);
-        buttonPickRobotShadow.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotShadow1 = (Button) findViewById(R.id.PickRobotShadow);
+        buttonintentSelectedRobotShadow1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotShadow = new Intent(RobotsShadow.this, PilotsCrystal.class);
-                startActivity(intentPickRobotShadow);
+                Intent intentSelectedRobotShadow1 = new Intent(RobotsShadow.this, SelectedRobotShadow.class);
+                startActivity(intentSelectedRobotShadow1);
             }
         });
     }
-
 
 }

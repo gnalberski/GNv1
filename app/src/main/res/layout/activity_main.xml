@@ -16,7 +16,7 @@
         android:layout_marginTop="388dp"
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="92dp"
-        android:background="@color/colorAccent"
+        android:background="@color/czerwony"
         android:onClick="Listarobotow1"
         android:text="ROBOTS VIEW"
         android:textColor="@color/czarny"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:background="@color/colorAccent"
+        tools:background="@color/czerwony"
         tools:ignore="OnClick" />
 
     <Button
@@ -39,7 +39,7 @@
         android:layout_marginTop="555dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="36dp"
-        android:background="@color/colorAccent"
+        android:background="@color/czerwony"
         android:clickable="true"
         android:onClick="clickexit"
         android:text="EXIT / BACK"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="@color/colorAccent"
+        tools:background="@color/czerwony"
         tools:text="EXIT / BACK" />
 
 
@@ -61,13 +61,13 @@
         android:layout_marginTop="550dp"
         android:layout_marginEnd="210dp"
         android:layout_marginBottom="31dp"
-        android:background="@color/colorAccent"
+        android:background="@color/czerwony"
         android:text="MUSIC
 
 
         ON/OFF"
         android:textSize="18sp"
-        tools:background="@color/colorAccent"
+        tools:background="@color/czerwony"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,4 +105,3 @@
 
 
 </android.support.constraint.ConstraintLayout>
-

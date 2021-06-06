@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PilotsCrystal extends SelectedRobotAndPilot{
+public class PilotsCrystal extends SelectedRobotJaguar {
 
 
     public void onCreate (Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class PilotsCrystal extends SelectedRobotAndPilot{
         buttonSelectPilotCrystal.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotCrystal = new Intent(PilotsCrystal.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotCrystal = new Intent(PilotsCrystal.this, SelectedPilotCrystal.class);
                 startActivity(intentSelectPilotCrystal);
             }
         });

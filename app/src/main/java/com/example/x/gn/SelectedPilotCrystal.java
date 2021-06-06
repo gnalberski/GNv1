@@ -7,21 +7,12 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class SelectedRobotAndPilot extends AppCompatActivity {
+public class SelectedPilotCrystal extends AppCompatActivity {
 
 
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.selectedrobotandpilot);
+        setContentView(R.layout.selectedpilotcrystal);
     }
-
-
-
-
-
-
-
-
-
 
 }

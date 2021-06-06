@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omfblackbackground"
+    tools:context=".SelectedRobotElectra">
+
+    <Button
+        android:id="@+id/GoToPilotsSelectionElectra"
+        android:layout_width="346dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="216dp"
+        android:background="@color/czerwony"
+        android:clickable="true"
+        android:onClick="GoToPilotsElectra"
+        android:text="GO TO PILOTS SELECTION"
+        android:textColor="@color/czarny"
+        android:textSize="22dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/czerwony"
+        tools:ignore="onClick" />
+
+    <ImageButton
+        android:id="@+id/imageButton2Electra"
+        android:layout_width="132dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/electra2"
+        tools:srcCompat="@drawable/electra2" />
+
+    <TextView
+        android:id="@+id/textView6Electra"
+        android:layout_width="363dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="566dp"
+        android:text="@string/chooserobottext"
+        android:textColor="@color/czerwony"
+        android:textSize="32dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5Electra"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="437dp"
+        android:text="@string/electra"
+        android:textColor="@color/czerwony"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView3"
+        android:layout_width="391dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="317dp"
+        android:scaleX="7"
+        android:src="@drawable/piorungif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

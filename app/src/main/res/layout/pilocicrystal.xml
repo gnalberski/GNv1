@@ -68,7 +68,7 @@
 
         android:layout_marginTop="527dp"
         android:layout_marginEnd="10dp"
-        android:background="@color/colorAccent"
+        android:background="@color/czerwony"
         android:clickable="true"
         android:onClick="Listapilotow6692"
         android:text="GO TO NEXT PILOT"
@@ -81,7 +81,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.500"
-        tools:background="@color/colorAccent"
+        tools:background="@color/czerwony"
         tools:ignore="onClick" />
 
     <Button
@@ -93,7 +93,7 @@
         android:layout_marginTop="133dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="428dp"
-        android:background="@color/colorAccent"
+        android:background="@color/czerwony"
         android:clickable="true"
         android:text="PICK PILOT"
         android:textColor="@color/czarny"
@@ -103,7 +103,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="@color/colorAccent"
+        tools:background="@color/czerwony"
         tools:ignore="onClick"
         />
 

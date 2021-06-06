@@ -178,14 +178,93 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SelectedRobotAndPilot">
+        <activity android:name=".SelectedRobotJaguar">
             <intent-filter>
-                <action android:name="android.intent.action.PilotsRaven" />
+                <action android:name="android.intent.action.PilotsJaguar" />
 
-                <category android:name="android.intent.category.PilotsRaven" />
+                <category android:name="android.intent.category.PilotsJaguar" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".SelectedRobotChronos">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsChronos" />
+
+                <category android:name="android.intent.category.PilotsChronos" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotElectra">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsElectra" />
+
+                <category android:name="android.intent.category.PilotsElectra" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotFlail">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsFlail" />
+
+                <category android:name="android.intent.category.PilotsFlail" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotGargoyle">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsGargoyle" />
+
+                <category android:name="android.intent.category.PilotsGargoyle" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotKatana">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsKatana" />
+
+                <category android:name="android.intent.category.PilotsKatana" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotPyros">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsPyros" />
+
+                <category android:name="android.intent.category.PilotsPyros" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotShredder">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsShredder" />
+
+                <category android:name="android.intent.category.PilotsShredder" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotShadow">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsShadow" />
+
+                <category android:name="android.intent.category.PilotsShadow" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedRobotThorn">
+            <intent-filter>
+                <action android:name="android.intent.action.PilotsThorn" />
+
+                <category android:name="android.intent.category.PilotsThorn" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedPilotCrystal">
+            <intent-filter>
+                <action android:name="android.intent.action.SelectedPilotCrystal" />
+
+                <category android:name="android.intent.category.SelectedPilotCrystal" />
+            </intent-filter>
+        </activity>
 
 
     </application>

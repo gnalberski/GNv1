@@ -25,12 +25,12 @@ public class RobotsChronos extends RobotsGargoyle{
     public void PickRobotChronos(View view) {
 
 
-        Button buttonPickRobotChronos = (Button) findViewById(R.id.PickRobotChronos);
-        buttonPickRobotChronos.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotChronos1 = (Button) findViewById(R.id.PickRobotChronos);
+        buttonintentSelectedRobotChronos1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotChronos = new Intent(RobotsChronos.this, PilotsCrystal.class);
-                startActivity(intentPickRobotChronos);
+                Intent intentSelectedRobotChronos1 = new Intent(RobotsChronos.this, SelectedRobotChronos.class);
+                startActivity(intentSelectedRobotChronos1);
             }
         });
     }

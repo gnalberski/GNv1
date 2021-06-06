@@ -29,7 +29,7 @@ public class PilotsRaven extends PilotsCossette{
         buttonSelectPilotRaven.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotRaven = new Intent(PilotsRaven.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotRaven = new Intent(PilotsRaven.this, SelectedRobotJaguar.class);
                 startActivity(intentSelectPilotRaven);
             }
         });

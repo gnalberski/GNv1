@@ -9,7 +9,7 @@ import android.widget.Button;
 public class Listarobotow extends AppCompatActivity {
 
 
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listarobotow);
 
@@ -33,20 +33,18 @@ public class Listarobotow extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent2 = new Intent(Listarobotow.this, RobotsShadow.class);
                 startActivity(intent2);
-
             }
         });
     }
 
     public void PickRobotJaguar(View view) {
 
-
-        Button buttonPickRobotCrystal = (Button) findViewById(R.id.PickRobotJaguar);
-        buttonPickRobotCrystal.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotJaguar1 = (Button) findViewById(R.id.PickRobotJaguar);
+        buttonintentSelectedRobotJaguar1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotCrystal = new Intent(Listarobotow.this, PilotsCrystal.class);
-                startActivity(intentPickRobotCrystal);
+                Intent intentSelectedRobotJaguar1 = new Intent(Listarobotow.this, SelectedRobotJaguar.class);
+                startActivity(intentSelectedRobotJaguar1);
             }
         });
     }

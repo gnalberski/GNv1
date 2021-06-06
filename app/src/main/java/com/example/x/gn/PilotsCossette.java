@@ -42,7 +42,7 @@ public class PilotsCossette extends PilotsIbrahim{
         buttonSelectPilotCossette.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotCossette = new Intent(PilotsCossette.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotCossette = new Intent(PilotsCossette.this, SelectedRobotJaguar.class);
                 startActivity(intentSelectPilotCossette);
             }
         });

@@ -42,7 +42,7 @@ public class PilotsJeanpaul extends PilotsShirro{
         buttonSelectPilotJeanpaul.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotJeanpaul = new Intent(PilotsJeanpaul.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotJeanpaul = new Intent(PilotsJeanpaul.this, SelectedRobotJaguar.class);
                 startActivity(intentSelectPilotJeanpaul);
             }
         });

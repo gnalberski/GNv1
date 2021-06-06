@@ -42,7 +42,7 @@ public class PilotsAngel extends PilotsIbrahim{
         buttonSelectPilotAngel.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentSelectPilotAngel = new Intent(PilotsAngel.this, SelectedRobotAndPilot.class);
+                Intent intentSelectPilotAngel = new Intent(PilotsAngel.this, SelectedRobotJaguar.class);
                 startActivity(intentSelectPilotAngel);
             }
         });

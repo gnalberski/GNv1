@@ -40,12 +40,12 @@ public class RobotsPyros extends RobotsThorn {
     public void PickRobotPyros(View view) {
 
 
-        Button buttonPickRobotPyros = (Button) findViewById(R.id.PickRobotPyros);
-        buttonPickRobotPyros.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotPyros1 = (Button) findViewById(R.id.PickRobotPyros);
+        buttonintentSelectedRobotPyros1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotPyros = new Intent(RobotsPyros.this, PilotsCrystal.class);
-                startActivity(intentPickRobotPyros);
+                Intent intentSelectedRobotPyros1 = new Intent(RobotsPyros.this, SelectedRobotPyros.class);
+                startActivity(intentSelectedRobotPyros1);
             }
         });
     }

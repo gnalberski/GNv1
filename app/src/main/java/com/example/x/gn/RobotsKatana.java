@@ -39,12 +39,12 @@ public class RobotsKatana extends RobotsElectra{
     public void PickRobotKatana(View view) {
 
 
-        Button buttonPickRobotKatana = (Button) findViewById(R.id.PickRobotKatana);
-        buttonPickRobotKatana.setOnClickListener(new View.OnClickListener() {
+        Button buttonintentSelectedRobotKatana1 = (Button) findViewById(R.id.PickRobotKatana);
+        buttonintentSelectedRobotKatana1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intentPickRobotKatana = new Intent(RobotsKatana.this, PilotsCrystal.class);
-                startActivity(intentPickRobotKatana);
+                Intent intentSelectedRobotKatana1 = new Intent(RobotsKatana.this, SelectedRobotKatana.class);
+                startActivity(intentSelectedRobotKatana1);
             }
         });
     }
